@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form</title>
+
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/glacial-indifference" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/cmu-typewriter" type="text/css"/>
+   
+</head>
+<body>
+    <main>
+        <form action="#">
+            <div>
+                <!-- 1st section -->
+                <div>
+                    <heading class="heading">
+                        <img src="hh.png" alt="heading_photo">
+                    </heading>
+                </div>
+                <div class="h1">
+                    <p>REVO|READS</p>
+                </div>
+                <div class="input-group">
+                    <label for="firstname"></label>
+                    <input class="blank" type="text" id="firstname" placeholder="Enter First Name" required>
+                </div>
+                <div class="input-group">
+                    <label for="lastname"></label>
+                    <input class="blank" type="text" id="lastname" placeholder="Enter Last Name"required>
+                </div>
+                <div class="input-group">
+                    <label for="mail"></label>
+                    <input class="blank" type="email" id="mail" placeholder="Enter Email" required> 
+                </div>
+                <div class="input-group">
+                    <label for="pw"></label>
+                    <input class="blank" type="password" id="password" placeholder="Enter New Password" required>
+                </div>
+                <div class="input-group">
+                    <label for="displayname"></label>
+                    <input class="blank" type="text" id="displayname" placeholder="Set Display Name" pattern="[A,Z],[a,z],[0,9]"  required>
+                </div>
+                <div class="input-group">
+                    <label for="age"></label>
+                    <input class="blank" type="text" id="age" placeholder="Age">
+                </div>
+                <!-- end of 1st section -->
+
+                <!-- 2nd section -->
+                <div class="gender1">
+                    <input type="radio" id="male" name="gender">
+                    <label for="gender">Male</label>
+                </div>
+                <div class="gender2">
+                    <input type="radio" id="female" name="gender">
+                    <label for="gender">Female</label>
+                </div>
+                <div class="lgbt">
+                    <input type="radio" id="lgbtiqa" name="gender">
+                    <label for="gender">LGBTIQA+</label>
+                    <select class="choose" id="gender">
+                      <option>Lesbian</option>
+                      <option>Gay</option>
+                      <option>Bisexual</option>
+                      <option>Transgender</option>
+                      <option>Intersex</option>
+                      <option>Queer</option>
+                      <option>Asexual</option>
+                      <option>Others</option>
+                    </select>
+                </div>
+                <!-- end of 2nd section -->
+
+                <!-- 3rd section -->
+
+                <div class="input">
+                    <p class="description">favorite book line</p>
+                    <label for="fave"></label>
+                     <textarea class="quote" 
+                        id="address" 
+                        cols="50" 
+                        rows="5" 
+                        style="resize:none">
+                    </textarea>
+                </div>
+
+                <!-- checkbox -->
+                <div class="check">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I agree to the Terms and Conditions.</label>
+                </div>
+
+                <!-- end of 3rd section -->
+
+                <!-- 4th section -->
+                <div>
+                    <button class="account">Create Account</button> -->
+                </div> 
+                
+            </div>
+        </form>
+    </main>
+</body>
+</html>

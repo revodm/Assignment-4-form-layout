@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+}
+body{
+    background-image: url(ws.jpg);
+    width: fit-content;
+    font-size: 18px;
+    font-family: "Glacial Indifference";
+    letter-spacing: 0.9px;
+    
+}
+main{
+    display: inline-block;
+    position: relative;
+    width:45%;
+    height:100%;
+    background-color: rgba(0,0,0,0.6);
+    overflow: hidden;
+    margin: 100px 35%;
+    
+}
+
+
+/* 1st section */
+
+.h1{
+    color: lightgray;
+    margin-top: 10px;
+    margin-left: 33%;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 30px;
+}
+.heading img{
+    height: 220px;
+}
+.input-group {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 68.5px;
+    padding: 5px;
+    
+}
+
+.blank {
+    display: inline-block;
+    background-color: transparent; color: white;
+    width:200px;
+    height: 25px;
+    font-family: "Glacial Indifference";
+    border: 1px solid gray;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.placeholder {
+    color: white;
+}
+
+
+/* end of 1st section */
+
+
+/* 2nd section */
+
+.gender1 {
+    color: lightgray;
+    display: inline-block;
+    margin-left: 113px;
+    margin-top: 15px;
+
+}
+.gender2 {
+    color: lightgray;
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.lgbt {
+    display: inline-block;
+    color: lightgray;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.choose {
+    background-color: transparent;
+    font-family: "Glacial Indifference";
+    color: lightgray;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+/* end 2nd section */
+
+
+/* 3rd section */
+.input {
+    margin: 20px 5px;
+    border-radius: 5px;
+    font-weight: 100;
+    color: lightgray;
+}
+.description{
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-size: 13px;
+}
+.quote {
+    margin-left: 17.1%;
+    background-color: transparent;
+    font-style: italic; color: lightgray;
+}
+
+/* checkbox*/
+
+.check {
+    margin-top: 12px;
+    margin-left: 25%; 
+    display: inline-block; 
+    color: lightgray;
+}
+.account {
+    margin: 10px 40%;
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: gray;
+    color: azure;
+    font-family: "Glacial Indifference";
+}
+.account:hover {
+    background-color:black;
+    color:white;
+    border-color: lightgray;
+    transition: 1s;
+}
